@@ -16,15 +16,18 @@ Examples:
 
 CIFAR-100
   ```
-  python main.py --dataset seq-cifar100-224 --model cps-prompt --lr 1e-3 --batch_size 16
+  python main.py --dataset seq-cifar100-224 --model cps-prompt --optimizer adam --lr 1e-3 --batch_size 16 \
+                 --temperature 1.0 --phase_ratio 0.4
   ```
 ImageNet-R
   ```
-  python main.py --dataset seq-imagenet-r --model cps-prompt --lr 1e-3 --batch_size 16
+  python main.py --dataset seq-imagenet-r --model cps-prompt --optimizer adam --lr 1e-3 --batch_size 16 \
+                 --temperature 0.1 --phase_ratio 0.2
   ```
 CUB200
   ```
-  python main.py --dataset seq-cub200 --model cps-prompt --lr 1e-3 --batch_size 16
+  python main.py --dataset seq-cub200 --model cps-prompt --optimizer adam --lr 1e-3 --batch_size 16 \
+                 --temperature 0.1 --phase_ratio 0.6
   ```
 
 ## Acknowledgement

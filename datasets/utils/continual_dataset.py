@@ -17,7 +17,6 @@ from utils import check_fn_dynamic_type
 from utils.conf import create_seeded_dataloader
 from datasets.utils import build_torchvision_transform
 from utils.loggers import log_accs, log_bias_accs
-from utils.prompt_templates import templates
 from utils.evaluate import evaluate, EvalFn
 from utils.bias import evaluate_with_bias
 

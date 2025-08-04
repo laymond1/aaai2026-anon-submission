@@ -16,7 +16,6 @@ from datasets.utils.continual_dataset import (ContinualDataset, fix_class_names_
                                               store_masked_loaders)
 from utils.conf import base_path
 from datasets.utils import set_default_from_args
-from utils.prompt_templates import templates
 
 
 class SequentialCIFAR100224(ContinualDataset):
